@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Страница про различные техники и принципы обучения">
+  <meta name="keywords" content="HTML5, CSS">
+  <meta name="author" content="Александр Соколов">
+  <link rel="stylesheet" href="./vendor/normalize.css"> <!-- Сначала normalize.css -->
+  <link rel="stylesheet" href="./vendor/fonts.css"><!-- Потом шрифты-->
+  <link rel="stylesheet" href="./pages/index.css"><!-- Потом свои стили -->
+  <title>Научиться учиться</title>
+</head>
+<body class="page">
+  <header class="header">
+    <img class="logo logo_place_heder" src="./images/logo_place_header.svg" alt="Логотип ЯндексПрактикум">
+    <div class="header__title">
+      Научиться учиться
+    </div>
+    <div class="header__subtitle">
+      Какие современные  и эффективные подходы к обучению вы можете использовать  в своей жизни?
+      <a class="header__link" href="#">Узнать→</a>
+    </div>
+    <div class="header__main-illustration">
+      <img class="header__main-illustration_header-image" src="./images/header-image.png" alt="Мальчик с мамой, братом и собакой">
+    </div>
+    <div class="header__square-pic rotation">
+    </div>
+  </header>
+  <main class="content">
+    <div class="description">   <!--  Блок description -->
+      <div class="two-columns">
+        <div class="two-columns__brief">
+          <h6 class="two-columns__brief">Главные проблемы в обучении</h6>
+        </div>
+        <div class="two-columns__main-text list">
+          <p class="two-columns__paragraph">
+            Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального значения. Зубрежка быстро выветривается и не приносит пользы.
+          </p>
+          <p class="two-columns__paragraph">
+            <span class="two-columns__span-accent">Вывод:</span> учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?
+          </p>
+          <p class="two-columns__paragraph">
+            Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающимю. Эти же техники применяются на примере обучения в Практикуме.
+          </p>
+        </div>
+      </div>
+    </div> <!-- Блок description Конец-->
+    <div class="techniques"><!-- Блок technique -->
+      <h2 class="section-title">Техники обучения</h2>
+      <h4 class="section-subtitle">Пять практик от Барбары Оакли</h4>
+          <div class="cards">
+            <div class="cards__item">
+              <img class="cards__image" src="./images/cards-attention.png" alt="Книга в руках">
+              <h2 class="card__title">Два вида внимания</h2>
+              <p class="card__description">
+                Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.
+              </p>
+            </div>
+            <div class="cards__item">
+              <img class="cards__image" src="./images/cards-recall.png" alt="Статуя мальчика">
+              <h2 class="card__title">Recall</h2>
+              <p class="card__description">
+                Вспоминайте изученное - это позволит соединить разрозненные порции памяти.
+              </p>
+            </div>
+
+            <div class="cards__item">
+              <img class="cards__image" src="./images/cards-interliving.png" alt="Подземная станция">
+              <h2 class="card__title">Интерливинг</h2>
+              <p class="card__description">
+                Вспоминайте несколько навыков одновременно, они обогащают друг друга.
+              </p>
+            </div>
+
+            <div class="cards__item">
+              <img class="cards__image" src="./images/cards-question.png" alt="Большая комната с человеком в центре">
+              <h2 class="card__title">Вопросы</h2>
+              <p class="card__description">
+                Слушая преподавателя, придумайте хороший вопрос, который вас действительно волнует.
+              </p>
+            </div>
+
+            <div class="cards__item">
+              <img class="cards__image" src="./images/cards-competence.png" alt="Книга в руках">
+              <h2 class="card__title">Иллюзия компетентности</h2>
+              <p class="card__description">
+                Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.
+              </p>
+            </div>
+        </div>
+    </div><!--Блок techniques конец-->
+    <div class="video"> <!-- Блок video -->
+      <h2 class="section-title">Видео на TED</h2>
+      <h4 class="section-subtitle">Для тех, кто любит прокрастинировать</h4>
+      <div class="video__iframes">
+        <div class="video__iframe">
+          <iframe id="ytplayer" type="text/html" width="515" height="386.25"
+src="https://www.youtube.com/embed/arj7oStGLkU"
+frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video__iframe">
+          <iframe id="ytplayer" type="text/html" width="515" height="386.25"
+src="https://www.youtube.com/embed/5MgBikgcWnY"
+frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div> <!-- Блок video конец-->
+    <div class="oakley"><!--  Блок  oakley-->
+      <div class="two-columns">
+        <div class="two-columns__brief">
+          <h6 class="two-columns__brief">История Барбары Оакли</h6>
+        </div>
+        <div class="two-columns__main-text">
+          <p class="two-columns__paragraph">
+            С детства Баробаре не давалась математика. Она считала себя законченным гуманитарием, причём далеко не самым умным. В армии она изучала русский язык, чтобы получить надбавку, да так успешно, что её выдвинули в командиры. Но для продвижения по службе нужно было сдавать математику. И тогда Барбара придумала свой подход к точным наукам. Оказалось, если вам что-то «плохо дается», ваши добытые трудом знания гораздо глубже, чем у тех, кому ясно с первого взгляда.
+          </p>
+        </div>
+      </div>
+    </div><!--  Блок oakley конец-->
+    <div class="feynman"><!--  Блок video feynman-->
+      <h1 class="feynman__title">Метод Фреймана</h1>
+      <h3 class="feynman__subtitle">Выучить и не забыть</h3>
+      <a class="feynman__link" href="#">Подробнее→ </a>
+       <img class="feynman__image" src=".\images\feynman.jpg" alt="Фрейман">
+    </div><!--  Блок video feynman конец-->
+    <div class="digits"><!--Блок digits -->
+      <h2 class="section-title">Цифры и факты</h2>
+      <h4 class="section-subtitle">Про учебу и мозг</h4>
+  <div class="table">
+    <div class="table__cell">
+      <h3 class="table__heading">86 миллиардов</h3>
+      <p class="table__text">
+        Число нейронов в мозге человека
+      </p>
+    </div>
+    <div class="table__cell">
+      <h3 class="table__heading">2,1 миллиарда</h3>
+      <p class="table__text">
+        Число нуждающихся в повышении квалификации
+      </p>
+      <p class="table__text">
+        Всемирный банк, 2017
+      </p>
+    </div>
+    <div class="table__cell">
+      <h3 class="table__heading">1000 терабайт</h3>
+      <p class="table__text">
+        Объём памяти человека
+      </p>
+    </div>
+    <div class="table__cell">
+      <h3 class="table__heading">500 триллионов</h3>
+      <p class="table__text">
+        Число ответственных за обучение нервных синапсов у взрослого человека
+      </p>
+    </div>
+        <div class="table__cell">
+          <h3 class="table__heading">420 миллионов</h3>
+          <p class="table__text">
+            Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства
+          </p>
+          <p class="table__text">
+            Всемирный банк, 2017
+          </p>
+        </div>
+        <div class="table__cell">
+          <h3 class="table__heading">17-20 лет</h3>
+          <p class="table__text">
+            Пик обучаемости
+          </p>
+        </div>
+        <div class="table__cell">
+          <h3 class="table__heading">1885 год</h3>
+          <p class="table__text">
+            Открытие кривой забывания
+          </p>
+        </div>
+        <div class="table__cell">
+          <h3 class="table__heading">1889 год</h3>
+          <p class="table__text">
+            Открытие условного рефлекса
+          </p>
+        </div>
+      </div>
+    </div><!--Блок digits конец-->
+    <div class="khan"><!--Блок khan -->
+      <div class="khan__container">
+        <p class="khan__author">Салман Хан</p>
+        <h2 class="khan__title">Весь мир — школа</h2>
+        <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу"Весь мир — школа" нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+        <h3 class="khan__quote-author">Джордж Лукас</h3>
+        <h4 class="khan__quote-author_subline">Кинорежиссёр, продюсер</h4>
+        <div class="khan__book-container">
+          <img class="khan__book-pic" src="./images/khan-book.jpg" alt="Обложка книги 'Весь мир — школа'">
+          <a class="khan__buy-link" href="#">Купить книгу→</a>
+        </div>
+      </div>
+    </div><!--Блок khan конец-->
+    <div class="kaufman kaufman_theme_dark"> <!--Блок kaufman -->
+    <h2 class="section-title section-title_theme_dark" >Принципы обучения</h2>
+    <h4 class="section-subtitle section-subtitle_theme_dark" >От Джоша Кауфмана</h4>
+    <div class="table">
+      <div class="table__cell_theme_dark">
+        <h3 class="table__heading table__heading_theme_dark">1</h3>
+        <p class="table__text table__text_theme_dark">
+          Выберите привлекательный проект.
+        </p>
+      </div>
+      <div class="table__cell_theme_dark">
+        <h3 class="table__heading table__heading_theme_dark">2</h3>
+        <p class="table__text table__text_theme_dark">
+          Сосредоточтесь на каком-то одном навыке.
+        </p>
+      </div>
+      <div class="table__cell_theme_dark">
+        <h3 class="table__heading table__heading_theme_dark">3</h3>
+        <p class="table__text table__text_theme_dark">
+          Определите целевой уровень мастерства.
+        </p>
+      </div>
+      <div class="table__cell_theme_dark">
+        <h3 class="table__heading table__heading_theme_dark">4</h3>
+        <p class="table__text table__text_theme_dark">
+          Разбейте навыки на элементы.
+        </p>
+      </div>
+      <div class="table__cell_theme_dark">
+        <h3 class="table__heading table__heading_theme_dark">5</h3>
+        <p class="table__text table__text_theme_dark">
+          Приготовьте все необходимое для занятия.
+        </p>
+      </div>
+      <div class="table__cell_theme_dark">
+        <h3 class="table__heading table__heading_theme_dark">6</h3>
+        <p class="table__text table__text_theme_dark">
+          Устраните препятствия для занятий.
+        </p>
+      </div>
+      <div class="table__cell_theme_dark">
+        <h3 class="table__heading table__heading_theme_dark">7</h3>
+        <p class="table__text table__text_theme_dark">
+          Выделите специальное время для занятий.
+        </p>
+      </div>
+      <div class="table__cell_theme_dark">
+        <h3 class="table__heading table__heading_theme_dark">8</h3>
+        <p class="table__text table__text_theme_dark">
+          Создайте быстрые петли обратной связи.
+        </p>
+      </div>
+      <div class="table__cell_theme_dark">
+        <h3 class="table__heading table__heading_theme_dark">9</h3>
+        <p class="table__text table__text_theme_dark">
+          Занимайтесь по расписанию, короткими интенсивными интервалами.
+        </p>
+      </div>
+      <div class="table__cell_theme_dark">
+        <h3 class="table__heading table__heading_theme_dark">10</h3>
+        <p class="table__text table__text_theme_dark">
+          Уделяйте внимание количеству и скорости.
+        </p>
+      </div>
+    </div>
+    <img class="kaufman__triangle rotation" src="./images/kaufman-triangle.svg" alt="Треугольник">
+    </div><!--Блок kaufman конец-->
+    <div class="resources"><!--Блок resources-->
+    <h2 class="section-title" >Полезные ресурсы</h2>
+    <h4 class="section-subtitle" >Больше материалов о техниках и лайфхаках обучения</h4>
+    <div class="resources__logo-zone">
+      <a href="#" class="resources__link">
+        <img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="Логотип Арзамас">
+      </a>
+      <a href="#" class="resources__link">
+        <img class="resources__logo" src="./images/logo/resources-n1.svg" alt="Логотип Арзамас">
+      </a>
+      <a href="#" class="resources__link">
+        <img class="resources__logo" src="./images/logo/resources-polka.svg" alt="Логотип Арзамас">
+      </a>
+      <a href="#" class="resources__link">
+        <img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="Логотип Арзамас">
+      </a>
+    </div>
+    </div><!--Блок resources конец-->
+  </main>
+  <footer class="footer footer_theme_dark"><!--Блок footer-->
+    <div class="footer__columns">
+      <div class="footer__columns_copyright">
+
+          <img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="Логотип ЯндексПрактикум">
+
+        <p  class="footer__author">&copy; Александр Соколов</p>
+      </div>
+      <div class="footer__column_content_info">
+        <p class="footer__column-heading">О Практикуме</p>
+        <a class="footer__column-links column-links_ftheme_dark" href="#">Главная</a>
+        <a class="footer__column-links column-links_ftheme_dark" href="#">Концепция</a>
+        <a class="footer__column-links column-links_ftheme_dark" href="#">Наставники</a>
+      </div>
+      <div class=" footer__column_content_social">
+        <p class="footer__column-heading">Соцсети</p>
+        <a class="footer__column-links " href="#">
+          <img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="Логотип ЯндексПрактикум">
+          Главная</a>
+        <a class="footer__column-links" href="#">
+          <img class="footer__social-icon" src="./images/vk_color_white.svg" alt="Логотип ЯндексПрактикум">
+          Концепция</a>
+        <a class="footer__column-links" href="#">
+          <img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="Логотип ЯндексПрактикум">
+          Наставники</a>
+      </div>
+    </div>
+  </footer><!--Блок footer конец-->
+</body>
+</html>
