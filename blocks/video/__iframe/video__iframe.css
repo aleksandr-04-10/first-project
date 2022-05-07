@@ -1,7 +1,9 @@
-.video__iframe{
-    margin-right: 20px;
-    height: 316px;
+.video__iframe {
+  margin-right: 20px;
+  width: 515px;
+  height: 316px;
+  border: 0;
 }
 .video__iframe:nth-of-type(2n) {
-    margin-right: 0;
-  }
+  margin-right: 0;
+}

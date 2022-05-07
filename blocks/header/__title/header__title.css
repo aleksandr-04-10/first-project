@@ -1,8 +1,6 @@
-.header__title{
-
+.header__title {
   margin: auto auto auto 64px;
   width: 730px;
-
   z-index: 2;
   font-size: 102px;
   line-height: 96px;

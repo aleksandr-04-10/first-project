@@ -8,8 +8,9 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Inter-Regular', 'Arial', sans-serif;
 }
-
-.page a:hover{
+/*
+.page a:hover {
   opacity: 0.5;
   transition: opacity 2s ease-in-out;
 }
+*/

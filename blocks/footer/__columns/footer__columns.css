@@ -1,7 +1,7 @@
-.footer__columns{
-    min-height: 350px;
-    width: 90%;
-    display: flex;
-    margin: auto;
-    justify-content: space-between;
-  }
+.footer__columns {
+  min-height: 350px;
+  width: 90%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
